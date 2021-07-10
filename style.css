@@ -14,6 +14,9 @@ div {
 .title h1, .title h2 {
     font-family: 'Press Start 2P', cursive;
 }
+.navBar, .content, footer {
+    font-family: 'Source Code Pro', monospace;
+}
 .navBar li {
     list-style-type: none;
     display: inline;
