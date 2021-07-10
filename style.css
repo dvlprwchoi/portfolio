@@ -44,7 +44,10 @@ footer {
 .navBar a {
     color: #f2f2f2;
     text-align: center;
-    padding: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 25px;
+    padding-bottom: 22px;
     text-decoration: none;
     font-size: 12px;
 }
@@ -60,4 +63,34 @@ footer {
     text-align: center;
     margin: 10px;
     padding: 5px;
+}
+
+@media (min-width: 415px) {
+    body {
+        border: 10px solid #333;
+        margin: 20px;
+    }
+    .title {
+        padding: 55px;
+        margin: 30px;
+    }
+    h1 {
+        font-size: 70px;
+    }
+    h2 {
+        text-align: right;
+        margin-top: 70px;
+        font-size: 45px;
+    }
+    .navBar a {
+        font-size: 30px;
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+    h3 {
+        font-size: 45px;
+    }
+    p {
+        font-size: 30px;
+    }
 }
