@@ -72,12 +72,41 @@ h3 {
     margin-left: auto;
     margin-right: auto;
 }
+.projects img {
+    border: 2px solid #333;
+    border-radius: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .footerMessage {
     text-align: center;
     margin: 10px;
     padding: 5px;
 }
-
+@media (max-width: 414px) {
+    #linkedinLinkText, #githubLinkText, #emailLinkText {
+        display: none;
+    }
+    .contactText {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .contactTitle {
+        grid-column: 1 / span 3;
+        grid-row: 1 / span 1;
+    }
+    .linkedin {
+        text-align: center;
+    }
+    .github {
+        text-align: center;
+    }
+    .email {
+        text-align: center;
+    }
+}
 @media (min-width: 415px) {
     body {
         border: 10px solid #333;
@@ -108,6 +137,12 @@ h3 {
         border: 4px solid #333;
         width: 250px;
         height: 250px;
+    }
+    .projects img {
+        border: 4px solid #333;
+        border-radius: 1%;
+        width: 90%;
+        height: auto;
     }
     p {
         font-size: 30px;
