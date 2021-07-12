@@ -23,6 +23,7 @@ footer {
 }
 .title h1, .title h2 {
     font-family: 'Press Start 2P', cursive;
+    line-height: 1.6;
 }
 .navBar, .content, footer {
     font-family: 'Source Code Pro', monospace;
@@ -78,6 +79,21 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+/* .contactText {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+} */
+.contactText a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #333;
+}
+.contactText a:hover {
+    font-size: 40px;
+    color: chocolate;
+    transition: 500ms;
 }
 .footerMessage {
     text-align: center;
