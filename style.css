@@ -3,6 +3,9 @@
     /* background-color: black;
     color: blanchedalmond; */
 }
+html, body, header, main, footer {
+    min-width: 414px;
+}
 body {
     border: 5px solid #333;
     margin: 5px;
@@ -117,14 +120,22 @@ h3 {
         grid-column: 1 / span 3;
         grid-row: 1 / span 1;
     }
-    .linkedin {
-        text-align: center;
+    .item1 {
+        grid-column: 1 / span 1;
+        grid-row: 2 /span 1;
     }
-    .github {
-        text-align: center;
+    .item3 {
+        grid-column: 2 / span 1;
+        grid-row: 2 /span 1;
     }
-    .email {
-        text-align: center;
+    .item5 {
+        grid-column: 3 / span 1;
+        grid-row: 2 /span 1;
+    }
+    .item1, .item3, .item5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media (min-width: 415px) {
@@ -167,6 +178,48 @@ h3 {
     .gitRepo {
         width: 55px;
         height: 55px;
+    }
+    .contactText {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .contactTitle {
+        grid-column: 1 / span 2;
+    }
+    .item1 {
+        grid-row: 2 / span 1;
+        grid-column: 1 /span 1;
+    }
+    .item2 {
+        grid-row: 2 / span 1;
+        grid-column: 2 /span 1;
+    }
+    .item3 {
+        grid-row: 3 / span 1;
+        grid-column: 1 /span 1;
+    }
+    .item4 {
+        grid-row: 3 / span 1;
+        grid-column: 2 /span 1;
+    }
+    .item5 {
+        grid-row: 4 / span 1;
+        grid-column: 1 /span 1;
+    }
+    .item6 {
+        grid-row: 4/ span 1;
+        grid-column: 2 /span 1;
+    }
+    .item1, .item3, .item5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .item2, .item4, .item6 {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
     }
     p {
         font-size: 30px;
