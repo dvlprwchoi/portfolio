@@ -32,10 +32,22 @@ footer {
     padding: 30px;
     margin: 10px;
 }
-.title h1, .title h2 {
+.title h1, .title h2, .title h4 {
     font-family: 'Press Start 2P', cursive;
     line-height: 1.6;
 }
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* .location h4 {
+    text-align: center;
+} */
+/* #locationPin {
+    justify-content: center;
+} */
 .navBar, .content, footer {
     font-family: 'Source Code Pro', monospace;
 }
@@ -170,6 +182,20 @@ h3 {
         margin-top: 70px;
         font-size: 45px;
     }
+    .location h4 {
+        text-align: right;
+        font-size: 35px;
+    }
+    .location img {
+        width: 60px;
+        height: auto;
+    }
+    .location {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: row;
+    }
     .navBar {
         display: flex;
         justify-content: center;
@@ -183,7 +209,7 @@ h3 {
         text-align: left;
         font-size: 45px;
     }
-    .skills li, h4 {
+    .skills li, .skills h4 {
         font-size: 35px;
     }
     .aboutText img {
