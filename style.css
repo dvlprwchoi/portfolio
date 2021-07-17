@@ -5,6 +5,7 @@
 }
 html {
     min-width: 300px;
+    scroll-behavior: smooth;
 }
 header, main, footer {
     min-width: 300px;
