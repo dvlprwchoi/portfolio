@@ -1,8 +1,25 @@
-* {
+/* LIGHT MODE */
+:root {
+    --background-color: white;
+    --text-color: black;
+    --border-color: #333;
+    --navBar-background-color: #333;
+    --navBarA-color: #f2f2f2;
+}
+/* DARK MODE */
+[theme="dark"] {
+    --background-color: #333;
+    --text-color: #f2f2f2;
+    --border-color: black;
+    --navBar-background-color: black;
+    --navBarA-color: white;
+}
+/* Guide line */
+/* * { */
     /* border: 1px solid black; */
     /* background-color: black;
     color: blanchedalmond; */
-}
+/* } */
 html {
     min-width: 360px;
     scroll-behavior: smooth;
@@ -14,7 +31,9 @@ header, main, footer {
     min-width: 300px;
 }
 body {
-    border: 5px solid #333;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 5px solid var(--border-color);
     margin: 5px;
     min-width: 300px;
 }
@@ -68,12 +87,19 @@ footer {
     position:-webkit-sticky;
     position: sticky;
     top: 0;
-    background-color: #333;
+    background-color: var(--navBar-background-color);
     margin: 0px;
     padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.navBarDarkModeIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .navBar a {
-    color: #f2f2f2;
+    color: var(--navBarA-color);
     text-align: center;
     padding-left: 1px;
     padding-right: 1px;
@@ -97,14 +123,14 @@ h3 {
     margin-bottom: 45px;
 }
 .aboutText img {
-    border: 2px solid #333;
+    border: 2px solid var(--border-color);
     border-radius: 10%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 .screenshot {
-    border: 2px solid #333;
+    border: 2px solid var(--border-color);
     border-radius: 3%;
     display: block;
     margin-left: auto;
@@ -122,7 +148,7 @@ h3 {
 .contactText a {
     text-decoration: none;
     font-size: 30px;
-    color: #333;
+    color: var(--text-color);
 }
 .contactText a:hover {
     font-size: 40px;
@@ -167,7 +193,7 @@ h3 {
 }
 @media (min-width: 415px) {
     body {
-        border: 10px solid #333;
+        border: 10px solid var(--border-color);
         margin: 20px;
     }
     .title {
@@ -213,12 +239,12 @@ h3 {
         font-size: 35px;
     }
     .aboutText img {
-        border: 4px solid #333;
+        border: 4px solid var(--border-color);
         width: 250px;
         height: 250px;
     }
     .screenshot {
-        border: 4px solid #333;
+        border: 4px solid var(--border-color);
         border-radius: 1%;
         width: 90%;
         height: auto;
