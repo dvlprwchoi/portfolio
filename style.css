@@ -90,6 +90,13 @@ footer {
     background-color: var(--navBar-background-color);
     margin: 0px;
     padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.navBarDarkModeIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .navBar a {
     color: var(--navBarA-color);
