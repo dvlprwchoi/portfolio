@@ -131,6 +131,7 @@ footer {
   padding: 5px;
   display: flex;
   flex-direction: column;
+  z-index: 100;
 }
 
 .navBarDarkModeIcon {
