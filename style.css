@@ -182,6 +182,14 @@ h3 {
   margin-right: auto;
 }
 
+.aboutText span, .projects span {
+  -webkit-text-stroke: 2px var(--text-color);
+  -webkit-text-fill-color:transparent;
+  /* font-weight: bold; */
+  font-size: larger;
+  font-style: italic;
+}
+
 .screenshot {
   border: 2px solid var(--border-color);
   border-radius: 3%;
@@ -256,7 +264,7 @@ h3 {
   
   /* background-color: rgb(230, 205, 174, 0.5); */
   background-color: var(--dark-mode-button-background-color);
-  border-radius: 50%;
+  border-radius: 25%;
 }
 #switch {
   background-color: transparent;
@@ -356,6 +364,9 @@ h3 {
     width: 250px;
     height: 250px;
   }
+  .aboutText span, .projects span {
+    font-weight: bold;
+  }
   .screenshot {
     border: 4px solid var(--border-color);
     border-radius: 1%;
@@ -427,5 +438,8 @@ h3 {
   .navBarDarkModeIcon {
     bottom: 55px;
     right: 37px;
+  }
+  .navBarDarkModeIcon {
+    border-radius: 50%;
   }
 }
