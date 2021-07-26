@@ -82,6 +82,28 @@ footer span{
   margin: 10px;
 }
 
+.typing {
+  width:  6ch;
+  animation: typing 2s steps(6), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 32px;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
 .title h1,
 .title h2,
 .title h4 {
@@ -317,6 +339,9 @@ h3 {
   .title {
     padding: 55px;
     margin: 30px;
+  }
+  .typing {
+    font-size: 70px;
   }
   h1 {
     font-size: 70px;
