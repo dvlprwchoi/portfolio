@@ -277,6 +277,10 @@ h3 {
   text-align: center;
   margin: 10px;
   padding: 5px;
+  color: var(--navBarA-color);
+  background-color: var(--navBar-background-color);
+  margin: 0px;
+  padding: 6px 5px 10px 5px;
 }
 .navBarDarkModeIcon {
   /* position: -webkit-sticky;
