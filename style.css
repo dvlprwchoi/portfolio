@@ -173,7 +173,7 @@ footer {
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 22px;
-  padding-bottom: 22px;
+  padding-bottom: 23px;
   text-decoration: none;
   font-size: 12px;
 }
@@ -381,6 +381,8 @@ h3 {
     font-size: 30px;
     padding-left: 27px;
     padding-right: 27px;
+    padding-top: 22px;
+    padding-bottom: 22px;
   }
   h3 {
     text-align: left;
