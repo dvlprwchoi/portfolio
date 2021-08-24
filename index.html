@@ -1,70 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="img/Profile-Picture.jpg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:image" content="img/Profile-Picture.jpg" />
     <title>Woo-Sik's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- Font style for .title -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
     <!-- Font style for .content -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="favicon_io/site.webmanifest">
-</head>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
+  </head>
 
-<body>
-    <header>
-
-    </header>
+  <body>
+    <header></header>
     <main>
-        <div class="title">
-            <h1 id="home" class="typing">Hello!</h1>
-            <p>&nbsp;</p>
-            <h2>My name is Woo-Sik Choi</h2>
-            <!-- <p>&nbsp;</p> -->
-            <!-- <div class="location">
+      <div class="title">
+        <h1 id="home" class="typing">Hello!</h1>
+        <p>&nbsp;</p>
+        <h2>My name is Woo-Sik Choi</h2>
+        <!-- <p>&nbsp;</p> -->
+        <!-- <div class="location">
                 <img src="img/pin-icon-light-128.png" alt="Location pin logo" width="30px" height="auto">
                 <h4>Austin, TX</h4>
             </div> -->
+      </div>
+      <div class="navBar">
+        <div class="navBarLinks">
+          <div class="homeLink">
+            <a href="#">HOME</a>
+          </div>
+          <div class="aboutLink">
+            <a href="#about">ABOUT</a>
+          </div>
+          <div class="projectsLink">
+            <a href="#projects">PROJECTS</a>
+          </div>
+          <div class="resumeLink">
+            <a href="#resume">RESUME</a>
+          </div>
+          <div class="contactLink">
+            <a href="#contact">CONTACT</a>
+          </div>
         </div>
-        <div class="navBar">
-            <div class="navBarLinks">
-                <div class="homeLink">
-                    <a href="#">HOME</a>
-                </div>
-                <div class="aboutLink">
-                    <a href="#about">ABOUT</a>
-                </div>
-                <div class="projectsLink">
-                    <a href="#projects">PROJECTS</a>
-                </div>
-                <div class="resumeLink">
-                    <a href="#resume">RESUME</a>
-                </div>
-                <div class="contactLink">
-                    <a href="#contact">CONTACT</a>
-                </div>
-            </div>
-            <div class="darkmodeButton">
-                <div class="navBarDarkModeIcon">
-                    <button id="switch">
-                        <img src="img/darkmode-icon-128.png" alt="Dark and light mode icon" width="30px" height="30px" style="padding-top: 3px;">
-                    </button>
-                </div>
-            </div>
+        <div class="darkmodeButton">
+          <div class="navBarDarkModeIcon">
+            <button id="switch">
+              <img
+                src="img/darkmode-icon-128.png"
+                alt="Dark and light mode icon"
+                width="30px"
+                height="30px"
+                style="padding-top: 3px"
+              />
+            </button>
+          </div>
+        </div>
 
-            <!-- <div class="navBarLinks">
+        <!-- <div class="navBarLinks">
                 <ul>
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
@@ -73,169 +96,300 @@
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div> -->
+      </div>
+      <div class="content">
+        <div class="about">
+          <!-- <p id="about">&nbsp;</p> -->
+          <div id="about" class="aboutText">
+            <img
+              src="img/Profile-Picture.jpg"
+              alt="Woo-Sik's profile picture"
+              width="255px"
+              height="255px"
+            />
+            <h3>ABOUT WOO-SIK</h3>
+            <p>
+              I am a <span>SOFTWARE DEVELOPER</span> with a background in
+              <span>STEM</span> education and cancer related research, as well
+              as <span>ARMY NURSING</span>. I am currently located in
+              <span>AUSTIN, TX</span>.<br />&nbsp;<br />
+              I am a critical thinker and like to pay attention to details.<br />&nbsp;<br />
+              I play the violin and love cooking, running, swimming, biking, and
+              skiing.<br />&nbsp;<br />
+              I also enjoy building and fixing stuff.
+            </p>
+            <div class="skills">
+              <h4>SKILLS</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>ReactJS</li>
+                <li>Mongoose</li>
+                <li>MongoDB</li>
+                <li>Git</li>
+                <li>Python</li>
+                <li>Django</li>
+                <li>PostgreSQL</li>
+                <li>Netlify</li>
+                <li>Heroku</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="content">
-            <div class="about">
-                <!-- <p id="about">&nbsp;</p> -->
-                <div id="about" class="aboutText">
-                    <img src="img/Profile-Picture.jpg" alt="Woo-Sik's profile picture" width="255px" height="255px">
-                    <h3>ABOUT WOO-SIK</h3>
-                    <p>
-                        I am a <span>SOFTWARE DEVELOPER</span> with a background in <span>STEM</span> education and cancer related research, as
-                        well as <span>ARMY NURSING</span>. I am currently located in <span>AUSTIN, TX</span>.<br>&nbsp;<br>
-                        I am a critical thinker and like to pay attention to details.<br>&nbsp;<br>
-                        I play the violin and love cooking, running, swimming, biking, and skiing.<br>&nbsp;<br>
-                        I also enjoy building and fixing stuff.
-                    </p>
-                    <div class="skills">
-                        <h4>SKILLS</h4>
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>ReactJS</li>
-                            <li>Mongoose</li>
-                            <li>MongoDB</li>
-                            <li>Git</li>
-                            <li>Python</li>
-                            <li>Django</li>
-                            <li>PostgreSQL</li>
-                            <li>Netlify</li>
-                            <li>Heroku</li>
-                        </ul>
-                    </div>
-                </div>
+        <div class="projects project">
+          <!-- <p id="projects">&nbsp;</p> -->
+          <div id="projects" class="projectsTitleDiv">
+            <h3>PROJECTS</h3>
+            <p>
+              CLICK screenshot images for live sites or GitHub logos for my
+              codes!
+            </p>
+          </div>
+          <div class="project4 project">
+            <h3>COFFEEHOLIC</h3>
+            <div>
+              <a href="https://woosik-coffeeholic.netlify.app/" target="_blank"
+                ><img
+                  class="screenshot"
+                  src="img/project-4-img-20210811.png"
+                  alt="Project 4 Screen Shot"
+                  width="100%"
+                  height="auto"
+              /></a>
+              <a
+                href="https://github.com/dvlprwchoi/coffeeholic-frontend"
+                target="_blank"
+                ><img
+                  class="gitRepo"
+                  src="img/GitHub-Mark-120px-plus.png"
+                  alt="Github Repository"
+                  width="30px"
+                  height="30px"
+              /></a>
+              <a
+                href="https://github.com/dvlprwchoi/coffeeholic-backend"
+                target="_blank"
+                ><img
+                  class="gitRepo"
+                  src="img/GitHub-Mark-120px-plus.png"
+                  alt="Github Repository"
+                  width="30px"
+                  height="30px"
+              /></a>
+              <p>
+                The <span>Coffeeholic</span> is an online memo application for
+                your favorite coffee shops. This is a full-stack application
+                with CRUD functionality and user authentication.<br />&nbsp;<br />Technologies
+                used:
+                <span
+                  >HTML, CSS, JavaScript, ReactJS, Python, Django, and
+                  PostgreSQL</span
+                >.
+              </p>
             </div>
-            <div class="projects project">
-                <!-- <p id="projects">&nbsp;</p> -->
-                <div id="projects" class="projectsTitleDiv">
-                    <h3>PROJECTS</h3>
-                    <p>CLICK screenshot images for live sites or GitHub logos for my codes!</p>
-                </div>
-                <div class="project4 project">
-                    <h3>COFFEEHOLIC</h3>
-                    <div>
-                        <a href="https://woosik-coffeeholic.netlify.app/" target="_blank"><img class="screenshot" src="img/project-4-img-20210811.png" alt="Project 4 Screen Shot" width="100%" height="auto"></a>
-                        <a href="https://github.com/dvlprwchoi/coffeeholic-frontend" target="_blank"><img class="gitRepo"
-                        src="img/GitHub-Mark-120px-plus.png" alt="Github Repository" width="30px"
-                        height="30px"></a>
-                        <a href="https://github.com/dvlprwchoi/coffeeholic-backend" target="_blank"><img class="gitRepo"
-                        src="img/GitHub-Mark-120px-plus.png" alt="Github Repository" width="30px"
-                        height="30px"></a>
-                    <p>
-                        The <span>Coffeeholic</span> is an online memo application for your favorite coffee shops. This is a full-stack application with CRUD functionality and user authentication.<br>&nbsp;<br>Technologies used: <span>HTML, CSS, JavaScript, ReactJS, Python, Django, and PostgreSQL</span>.
-                    </p>
-                    </div>
-                </div>
-                <div class="js-calculator project">
-                    <h3>JAVASCRIPT CALCULATOR</h3>
-                    <div>
-                        <a href="https://dvlprwchoi.github.io/js-calculator" target="_blank"><img class="screenshot"
-                                src="img/js-calculator-img-20210728.png" alt="JavaScript Calculator Screen Shot" width="100%"
-                                height="auto"></a>
-                        <a href="https://github.com/dvlprwchoi/js-calculator" target="_blank"><img class="gitRepo"
-                                src="img/GitHub-Mark-120px-plus.png" alt="Github Repository" width="30px"
-                                height="30px"></a>
-                        <p>
-                            The <span>JavaScript Calculator</span> is a calculator with basic functionality.<br>&nbsp;<br>Technologies used: <span>HTML, CSS, and JavaScript</span>.
-                        </p>
-                    </div>
-                </div>
-                <div class="project3 project">
-                    <h3>GITNOMS</h3>
-                    <div>
-                        <a href="https://gitnoms.netlify.app/" target="_blank"><img class="screenshot"
-                                src="img/Project-3-Img-20210725.png" alt="Project 3 Screen Shot" width="100%"
-                                height="auto"></a>
-                        <a href="https://github.com/TheCodingChefs" target="_blank"><img class="gitRepo"
-                                src="img/GitHub-Mark-120px-plus.png" alt="Github Repository" width="30px"
-                                height="30px"></a>
-                        <p>
-                            The <span>gitNoms</span> is an online recipe application. Users can easily upload, edit, or delete their own receipes. This full-stack application project was a group project with 3 other developers.<br>&nbsp;<br>Technologies used: <span>HTML, CSS, JavaScript, ReactJS, Mongoose, and MongoDB</span>.
-                        </p>
-                    </div>
-                </div>
-                <div class="project2 project">
-                    <h3>COVID-19 NUMBERS APP</h3>
-                    <div>
-                        <a href="https://woosik-covid-19-numbers.netlify.app/" target="_blank"><img class="screenshot"
-                                src="img/Project-2-Img-20210710.png" alt="Project 2 Screen Shot" width="100%"
-                                height="auto"></a>
-                        <a href="https://github.com/dvlprwchoi/covid-19-numbers" target="_blank"><img class="gitRepo"
-                                src="img/GitHub-Mark-120px-plus.png" alt="Github Repository" width="30px"
-                                height="30px"></a>
-                        <p>
-                            The <span>COVID-19 Numbers App</span> shows on-demand COVID-19 related numerical data.<br>&nbsp;<br>Technologies used: <span>HTML, CSS, JavaScript, ReactJS, and 3rd party API</span>.
-                        </p>
-                    </div>
-                </div>
-                <div class="project1 project">
-                    <h3>MINI OMOK (오목)</h3>
-                    <div>
-                        <a href="https://dvlprwchoi.github.io/omok-game/" target="_blank"><img class="screenshot"
-                                src="img/Project-1-Img-20210710.png" alt="Project 1 Screen Shot" width="100%"
-                                height="auto"></a>
-                        <a href="https://github.com/dvlprwchoi/omok-game" target="_blank"><img class="gitRepo"
-                                src="img/GitHub-Mark-120px-plus.png" alt="Github Repository" width="30px"
-                                height="30px"></a>
-                        <p>
-                            The <span>MINI OMOK</span> is a simplified version of a Korean game called Omok. To win the game, connect 5
-                            stones with same color in the vertical, horizontal or diagonal direction.<br>&nbsp;<br>Technologies used:
-                            <span>HTML, CSS, and JavaScript</span>.
-                        </p>
-                    </div>
-                </div>
+          </div>
+          <div class="js-calculator project">
+            <h3>JAVASCRIPT CALCULATOR</h3>
+            <div>
+              <a
+                href="https://dvlprwchoi.github.io/js-calculator"
+                target="_blank"
+                ><img
+                  class="screenshot"
+                  src="img/js-calculator-img-20210728.png"
+                  alt="JavaScript Calculator Screen Shot"
+                  width="100%"
+                  height="auto"
+              /></a>
+              <a
+                href="https://github.com/dvlprwchoi/js-calculator"
+                target="_blank"
+                ><img
+                  class="gitRepo"
+                  src="img/GitHub-Mark-120px-plus.png"
+                  alt="Github Repository"
+                  width="30px"
+                  height="30px"
+              /></a>
+              <p>
+                The <span>JavaScript Calculator</span> is a calculator with
+                basic functionality.<br />&nbsp;<br />Technologies used:
+                <span>HTML, CSS, and JavaScript</span>.
+              </p>
             </div>
-            <div class="resume">
-                <!-- <p id="resume">&nbsp;</p> -->
-                <div id="resume" class="resumeText">
-                    <h3>RESUME</h3>
-                    <p>
-                        Click <a href="https://drive.google.com/file/d/1s39ky14GWBecKQse3crHCFJSmF0FQHyi/view?usp=sharing" target="_blank">HERE</a> to see my resume
-                    </p>
-                </div>
+          </div>
+          <div class="project3 project">
+            <h3>GITNOMS</h3>
+            <div>
+              <a href="https://gitnoms.netlify.app/" target="_blank"
+                ><img
+                  class="screenshot"
+                  src="img/Project-3-Img-20210725.png"
+                  alt="Project 3 Screen Shot"
+                  width="100%"
+                  height="auto"
+              /></a>
+              <a href="https://github.com/TheCodingChefs" target="_blank"
+                ><img
+                  class="gitRepo"
+                  src="img/GitHub-Mark-120px-plus.png"
+                  alt="Github Repository"
+                  width="30px"
+                  height="30px"
+              /></a>
+              <p>
+                The <span>gitNoms</span> is an online recipe application. Users
+                can easily upload, edit, or delete their own receipes. This
+                full-stack application project was a group project with 3 other
+                developers.<br />&nbsp;<br />Technologies used:
+                <span
+                  >HTML, CSS, JavaScript, ReactJS, Mongoose, and MongoDB</span
+                >.
+              </p>
             </div>
-            <div class="contact">
-                <!-- <p id="contact">&nbsp;</p> -->
-                <div id="contact" class="contactText">
-                    <h3 class="contactTitle">CONTACT INFORMATION</h3>
-                    <div class="item1">
-                        <a href="https://www.linkedin.com/in/woosikchoi/" target="_blank"><img src="img/LI-In-Bug.png"
-                                alt="linkedin.com/in/woosikchoi" width="65px" height="58px"></a>
-                    </div>
-                    <div class="item2">
-                        <a href="https://www.linkedin.com/in/woosikchoi" target="_blank"
-                            id="linkedinLinkText">linkedin.com/in/woosikchoi</a>
-                    </div>
-                    <div class="item3">
-                        <a href="https://www.github.com/dvlprwchoi" target="_blank"><img
-                                src="img/GitHub-Mark-120px-plus.png" alt="github.com/dvlprwchoi" width="55px"
-                                height="55px"></a>
-                    </div>
-                    <div class="item4">
-                        <a href="https://www.github.com/dvlprwchoi" target="_blank"
-                            id="githubLinkText">github.com/dvlprwchoi</a>
-                    </div>
-                    <div class="item5">
-                        <a href="mailto:dvlpr.wchoi@gmail.com?subject=Mail from woosikchoi.com" target="_blank"><img
-                                src="img/Logo-Gmail-9952.png" alt="dvlpr.wchoi@gmail.com" width="55px"
-                                height="55px"></a>
-                    </div>
-                    <div class="item6">
-                        <a href="mailto:dvlpr.wchoi@gmail.com?subject=Mail from woosikchoi.com" target="_blank"
-                            id="emailLinkText">dvlpr.wchoi@gmail.com</a>
-                    </div>
-                </div>
+          </div>
+          <div class="project2 project">
+            <h3>COVID-19 NUMBERS APP</h3>
+            <div>
+              <a
+                href="https://woosik-covid-19-numbers.netlify.app/"
+                target="_blank"
+                ><img
+                  class="screenshot"
+                  src="img/Project-2-Img-20210710.png"
+                  alt="Project 2 Screen Shot"
+                  width="100%"
+                  height="auto"
+              /></a>
+              <a
+                href="https://github.com/dvlprwchoi/covid-19-numbers"
+                target="_blank"
+                ><img
+                  class="gitRepo"
+                  src="img/GitHub-Mark-120px-plus.png"
+                  alt="Github Repository"
+                  width="30px"
+                  height="30px"
+              /></a>
+              <p>
+                The <span>COVID-19 Numbers App</span> shows on-demand COVID-19
+                related numerical data.<br />&nbsp;<br />Technologies used:
+                <span>HTML, CSS, JavaScript, ReactJS, and 3rd party API</span>.
+              </p>
             </div>
+          </div>
+          <div class="project1 project">
+            <h3>MINI OMOK (오목)</h3>
+            <div>
+              <a href="https://dvlprwchoi.github.io/omok-game/" target="_blank"
+                ><img
+                  class="screenshot"
+                  src="img/Project-1-Img-20210710.png"
+                  alt="Project 1 Screen Shot"
+                  width="100%"
+                  height="auto"
+              /></a>
+              <a href="https://github.com/dvlprwchoi/omok-game" target="_blank"
+                ><img
+                  class="gitRepo"
+                  src="img/GitHub-Mark-120px-plus.png"
+                  alt="Github Repository"
+                  width="30px"
+                  height="30px"
+              /></a>
+              <p>
+                The <span>MINI OMOK</span> is a simplified version of a Korean
+                game called Omok. To win the game, connect 5 stones with same
+                color in the vertical, horizontal or diagonal direction.<br />&nbsp;<br />Technologies
+                used: <span>HTML, CSS, and JavaScript</span>.
+              </p>
+            </div>
+          </div>
         </div>
+        <div class="resume">
+          <!-- <p id="resume">&nbsp;</p> -->
+          <div id="resume" class="resumeText">
+            <h3>RESUME</h3>
+            <p>
+              Click
+              <a
+                href="https://drive.google.com/file/d/1HNKNt1cvV9FQxjVPivdvANbjZ6hERR-G/view?usp=sharing"
+                target="_blank"
+                >HERE</a
+              >
+              to see my resume
+            </p>
+          </div>
+        </div>
+        <div class="contact">
+          <!-- <p id="contact">&nbsp;</p> -->
+          <div id="contact" class="contactText">
+            <h3 class="contactTitle">CONTACT INFORMATION</h3>
+            <div class="item1">
+              <a href="https://www.linkedin.com/in/woosikchoi/" target="_blank"
+                ><img
+                  src="img/LI-In-Bug.png"
+                  alt="linkedin.com/in/woosikchoi"
+                  width="65px"
+                  height="58px"
+              /></a>
+            </div>
+            <div class="item2">
+              <a
+                href="https://www.linkedin.com/in/woosikchoi"
+                target="_blank"
+                id="linkedinLinkText"
+                >linkedin.com/in/woosikchoi</a
+              >
+            </div>
+            <div class="item3">
+              <a href="https://www.github.com/dvlprwchoi" target="_blank"
+                ><img
+                  src="img/GitHub-Mark-120px-plus.png"
+                  alt="github.com/dvlprwchoi"
+                  width="55px"
+                  height="55px"
+              /></a>
+            </div>
+            <div class="item4">
+              <a
+                href="https://www.github.com/dvlprwchoi"
+                target="_blank"
+                id="githubLinkText"
+                >github.com/dvlprwchoi</a
+              >
+            </div>
+            <div class="item5">
+              <a
+                href="mailto:dvlpr.wchoi@gmail.com?subject=Mail from woosikchoi.com"
+                target="_blank"
+                ><img
+                  src="img/Logo-Gmail-9952.png"
+                  alt="dvlpr.wchoi@gmail.com"
+                  width="55px"
+                  height="55px"
+              /></a>
+            </div>
+            <div class="item6">
+              <a
+                href="mailto:dvlpr.wchoi@gmail.com?subject=Mail from woosikchoi.com"
+                target="_blank"
+                id="emailLinkText"
+                >dvlpr.wchoi@gmail.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
-        <div class="footerMessage">
-            <p>
-                LAST UPDATED: <span>AUGUST 2021</span><br>
-                BUILT BY: <span>WOO-SIK CHOI</span><br>
-            </p>
-        </div>
+      <div class="footerMessage">
+        <p>
+          LAST UPDATED: <span>AUGUST 2021</span><br />
+          BUILT BY: <span>WOO-SIK CHOI</span><br />
+        </p>
+      </div>
     </footer>
     <!-- <div class="navBarDarkModeIcon">
         <button id="switch">
@@ -243,6 +397,5 @@
         </button>
     </div> -->
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
